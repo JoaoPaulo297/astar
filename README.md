@@ -8,7 +8,7 @@ Este projeto implementa o algoritmo A* para resolver problemas de caminho mínim
 
 
 ##Como executar
-git clone https://github.com/JoaoPaulo297/astar.git
-cd src
-python Astar.py
+1 - git clone https://github.com/JoaoPaulo297/astar.git
+2 - cd src
+3 - python Astar.py
 
