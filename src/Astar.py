@@ -25,7 +25,10 @@ def is_destination(row, col, dest):
 
 # Calcula o valor da heurística de uma célula (Distância euclidiana para o destino)
 def calculate_h_value(row, col, dest):
-    return ((row - dest[0]) ** 2 + (col - dest[1]) ** 2) ** 0.5
+    drow = abs(row - dest[0])
+    dcol = abs(col - dest[1])
+
+    return max(drow, dcol)
 
 
 
