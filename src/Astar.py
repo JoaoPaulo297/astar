@@ -90,7 +90,7 @@ def a_star_search(grid, src, dest, numROWS, numCOLS):
             trace_path(cell_details, dest)
             found_dest = True
             return
-        # For each direction, check the successors
+        
         # Para cada direção (incluindo as diagonais), verifique os sucessores
         directions = [(0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (1, -1), (-1, 1), (-1, -1)]
         for dir in directions:
