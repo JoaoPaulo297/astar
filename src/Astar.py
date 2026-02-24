@@ -23,7 +23,7 @@ def is_unblocked(grid, row, col):
 def is_destination(row, col, dest):
     return row == dest[0] and col == dest[1]
 
-# Calcula o valor da heurística de uma célula (Distância euclidiana para o destino)
+# Calcula o valor da heurística de uma célula (Heurística de chebyshev)
 def calculate_h_value(row, col, dest):
     drow = abs(row - dest[0])
     dcol = abs(col - dest[1])
